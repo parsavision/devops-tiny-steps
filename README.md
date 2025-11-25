@@ -127,13 +127,13 @@ A complete, gradual learning path designed for absolute beginners with zero know
 **Concept:** `cat` displays file contents  
 **Help:** Shows your computer's hostname
 
-**Exercise 19: Create File with Content**  
+**Exercise 19: Create File with Content** ✅
 **Goal:** Write text to a file  
 **Task:** `echo "Hello DevOps" > hello.txt`  
 **Concept:** `>` redirects output to file  
 **Help:** `cat hello.txt` to verify
 
-**Exercise 20: Append to File**  
+**Exercise 20: Append to File** ✅ 
 **Goal:** Add more text without overwriting  
 **Task:** `echo "Learning Linux" >> hello.txt`  
 **Concept:** `>>` appends to file  
