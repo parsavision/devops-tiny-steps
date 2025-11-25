@@ -15,61 +15,61 @@ A complete, gradual learning path designed for absolute beginners with zero know
 
 ### Week 1: Your First Steps with the Terminal
 
-**Exercise 1: Open the Terminal** ⭐  
+**Exercise 1: Open the Terminal** ⭐✅  
 **Goal:** Access the command line for the first time  
 **Task:** Open a terminal on your Linux system (or WSL on Windows)  
 **Concept:** The terminal is where DevOps magic happens  
 **Help:** Press `Ctrl+Alt+T` on Ubuntu, or search for "Terminal"
 
-**Exercise 2: Who Am I?**  
+**Exercise 2: Who Am I?** ✅  
 **Goal:** Find out your current username  
 **Task:** Type `whoami` and press Enter  
 **Concept:** The `whoami` command shows your username  
 **Help:** You should see your username printed
 
-**Exercise 3: Where Am I?** ⭐  
+**Exercise 3: Where Am I?** ⭐✅  
 **Goal:** Find your current location in the file system  
 **Task:** Type `pwd` and press Enter  
 **Concept:** `pwd` = Print Working Directory  
 **Help:** You'll likely see `/home/yourusername`
 
-**Exercise 4: What's Here?** ⭐  
+**Exercise 4: What's Here?** ⭐✅  
 **Goal:** See files and folders in current directory  
 **Task:** Type `ls` and press Enter  
 **Concept:** `ls` = List directory contents  
 **Help:** You'll see files and folders listed
 
-**Exercise 5: List with Details**  
+**Exercise 5: List with Details** ✅
 **Goal:** See more information about files  
 **Task:** Type `ls -l` and press Enter  
 **Concept:** `-l` flag shows long format with details  
 **Help:** You'll see permissions, owner, size, date
 
-**Exercise 6: Show Hidden Files**  
+**Exercise 6: Show Hidden Files** ✅ 
 **Goal:** See files that start with a dot  
 **Task:** Type `ls -a` and press Enter  
 **Concept:** Hidden files start with `.` (like `.bashrc`)  
 **Help:** `-a` means "all" including hidden
 
-**Exercise 7: Combine Flags**  
+**Exercise 7: Combine Flags** ✅ 
 **Goal:** Use multiple options together  
 **Task:** Type `ls -la` and press Enter  
 **Concept:** Flags can be combined  
 **Help:** Shows all files in long format
 
-**Exercise 8: Human Readable Sizes**  
+**Exercise 8: Human Readable Sizes** ✅ 
 **Goal:** See file sizes in KB, MB, GB  
 **Task:** Type `ls -lh` and press Enter  
 **Concept:** `-h` = human readable  
 **Help:** Instead of bytes, you'll see "4.0K", "1.2M", etc.
 
-**Exercise 9: Clear the Screen**  
+**Exercise 9: Clear the Screen** ✅
 **Goal:** Clean up your terminal  
 **Task:** Type `clear` or press `Ctrl+L`  
 **Concept:** Clears terminal output  
 **Help:** Your prompt will be at the top
 
-**Exercise 10: Your First Directory** ⭐  
+**Exercise 10: Your First Directory** ⭐✅  
 **Goal:** Create a new folder  
 **Task:** Type `mkdir devops-practice`  
 **Concept:** `mkdir` = Make Directory  
@@ -79,49 +79,49 @@ A complete, gradual learning path designed for absolute beginners with zero know
 
 ### Week 2: Navigation & Basic Commands
 
-**Exercise 11: Change Directory** ⭐  
+**Exercise 11: Change Directory** ⭐✅  
 **Goal:** Move into a folder  
 **Task:** Type `cd devops-practice`  
 **Concept:** `cd` = Change Directory  
 **Help:** Use `pwd` to confirm you moved
 
-**Exercise 12: Go Back One Level**  
+**Exercise 12: Go Back One Level** ✅ 
 **Goal:** Move to parent directory  
 **Task:** Type `cd ..`  
 **Concept:** `..` means parent directory  
 **Help:** You should be back where you started
 
-**Exercise 13: Go Home** ⭐  
+**Exercise 13: Go Home** ⭐✅  
 **Goal:** Return to your home directory  
 **Task:** Type `cd ~` or just `cd`  
 **Concept:** `~` is shortcut for home directory  
 **Help:** `pwd` should show `/home/yourusername`
 
-**Exercise 14: Absolute vs Relative Paths**  
+**Exercise 14: Absolute vs Relative Paths** ✅ 
 **Goal:** Understand path types  
 **Task:** Try `cd /home` then `cd ~`  
 **Concept:** Absolute starts with `/`, relative doesn't  
 **Help:** `/home` is absolute, `devops-practice` is relative
 
-**Exercise 15: Create Nested Directories**  
+**Exercise 15: Create Nested Directories** ✅ 
 **Goal:** Create folders inside folders  
 **Task:** `mkdir -p projects/web/frontend`  
 **Concept:** `-p` creates parent directories as needed  
 **Help:** Creates projects, web inside it, frontend inside that
 
-**Exercise 16: Create an Empty File** ⭐  
+**Exercise 16: Create an Empty File** ⭐✅  
 **Goal:** Make a new empty file  
 **Task:** `touch myfile.txt`  
 **Concept:** `touch` creates empty files  
 **Help:** Use `ls` to verify it exists
 
-**Exercise 17: Create Multiple Files**  
+**Exercise 17: Create Multiple Files**  ✅
 **Goal:** Create several files at once  
 **Task:** `touch file1.txt file2.txt file3.txt`  
 **Concept:** Commands can take multiple arguments  
 **Help:** Three files created with one command
 
-**Exercise 18: View File Contents** ⭐  
+**Exercise 18: View File Contents** ⭐✅  
 **Goal:** Read what's in a file  
 **Task:** `cat /etc/hostname`  
 **Concept:** `cat` displays file contents  
