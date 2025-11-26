@@ -143,61 +143,61 @@ A complete, gradual learning path designed for absolute beginners with zero know
 
 ### Week 3: File Operations
 
-**Exercise 21: Copy a File** ⭐  
+**Exercise 21: Copy a File** ⭐✅  
 **Goal:** Duplicate a file  
 **Task:** `cp hello.txt hello-backup.txt`  
 **Concept:** `cp` = Copy  
 **Help:** Now you have two files with same content
 
-**Exercise 22: Copy to Directory**  
+**Exercise 22: Copy to Directory**✅  
 **Goal:** Copy file into a folder  
 **Task:** `cp hello.txt devops-practice/`  
 **Concept:** Destination can be a directory  
 **Help:** File is now in both locations
 
-**Exercise 23: Copy Directory** ⭐  
+**Exercise 23: Copy Directory** ⭐✅  
 **Goal:** Copy an entire folder  
 **Task:** `cp -r devops-practice backup-folder`  
 **Concept:** `-r` = recursive (needed for directories)  
 **Help:** Without `-r`, copying directories fails
 
-**Exercise 24: Move a File** ⭐  
+**Exercise 24: Move a File** ⭐✅  
 **Goal:** Move file to new location  
 **Task:** `mv hello.txt devops-practice/`  
 **Concept:** `mv` = Move  
 **Help:** File is no longer in original location
 
-**Exercise 25: Rename a File**  
+**Exercise 25: Rename a File**✅  
 **Goal:** Change file name  
 **Task:** `mv hello-backup.txt greeting.txt`  
 **Concept:** `mv` also renames files  
 **Help:** Same command, just different name
 
-**Exercise 26: Rename a Directory**  
+**Exercise 26: Rename a Directory**✅  
 **Goal:** Change folder name  
 **Task:** `mv backup-folder archive`  
 **Concept:** `mv` works on directories too  
 **Help:** No `-r` needed for moving directories
 
-**Exercise 27: Remove a File** ⭐ ⚠️  
+**Exercise 27: Remove a File** ⭐ ⚠️✅  
 **Goal:** Delete a file  
 **Task:** `rm greeting.txt`  
 **Concept:** `rm` = Remove (PERMANENT - no trash!)  
 **Warning:** There is no undo! Double-check before removing
 
-**Exercise 28: Remove Empty Directory**  
+**Exercise 28: Remove Empty Directory**✅  
 **Goal:** Delete an empty folder  
 **Task:** `rmdir archive`  
 **Concept:** `rmdir` only removes empty directories  
 **Help:** If directory has files, this will fail
 
-**Exercise 29: Remove Directory with Contents** ⚠️  
+**Exercise 29: Remove Directory with Contents** ⚠️✅  
 **Goal:** Delete folder and everything inside  
 **Task:** `rm -r devops-practice`  
 **Concept:** `-r` removes recursively  
 **Warning:** Very dangerous! Always double-check path
 
-**Exercise 30: Safe Delete Practice** 🎯  
+**Exercise 30: Safe Delete Practice** 🎯✅  
 **Goal:** Confirm before deleting  
 **Task:** `rm -i file1.txt`  
 **Concept:** `-i` asks for confirmation  
