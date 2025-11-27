@@ -207,61 +207,61 @@ A complete, gradual learning path designed for absolute beginners with zero know
 
 ### Week 4: Viewing & Editing Files
 
-**Exercise 31: View Long Files** ⭐  
+**Exercise 31: View Long Files** ⭐✅  
 **Goal:** Read files that don't fit on screen  
 **Task:** `less /etc/services`  
 **Concept:** `less` allows scrolling through files  
 **Help:** Press `q` to quit, arrows to scroll
 
-**Exercise 32: View First Lines**  
+**Exercise 32: View First Lines**✅  
 **Goal:** See beginning of a file  
 **Task:** `head /etc/passwd`  
 **Concept:** `head` shows first 10 lines  
 **Help:** Default is 10 lines
 
-**Exercise 33: View Last Lines** ⭐  
+**Exercise 33: View Last Lines** ⭐✅  
 **Goal:** See end of a file  
 **Task:** `tail /etc/passwd`  
 **Concept:** `tail` shows last 10 lines  
 **Help:** Very useful for log files!
 
-**Exercise 34: Specify Number of Lines**  
+**Exercise 34: Specify Number of Lines**✅  
 **Goal:** Control how many lines to show  
 **Task:** `head -n 5 /etc/passwd`  
 **Concept:** `-n` specifies line count  
 **Help:** Shows first 5 lines
 
-**Exercise 35: Follow Log File** ⭐  
+**Exercise 35: Follow Log File** ⭐✅ 
 **Goal:** Watch file updates in real-time  
 **Task:** `tail -f /var/log/syslog`  
 **Concept:** `-f` = follow (updates live)  
 **Help:** Press `Ctrl+C` to stop
 
-**Exercise 36: Word Count**  
+**Exercise 36: Word Count** ✅ 
 **Goal:** Count lines, words, characters  
 **Task:** `wc /etc/passwd`  
 **Concept:** `wc` = Word Count  
 **Help:** Shows: lines, words, characters
 
-**Exercise 37: Count Lines Only**  
+**Exercise 37: Count Lines Only** ✅ 
 **Goal:** Get just the line count  
 **Task:** `wc -l /etc/passwd`  
 **Concept:** `-l` = lines only  
 **Help:** Useful for counting entries
 
-**Exercise 38: Nano Editor** ⭐  
+**Exercise 38: Nano Editor** ⭐✅ 
 **Goal:** Edit a file with simple editor  
 **Task:** `nano myfile.txt`, type text, `Ctrl+O` to save, `Ctrl+X` to exit  
 **Concept:** `nano` is beginner-friendly editor  
 **Help:** Commands shown at bottom of screen
 
-**Exercise 39: Vim Basics - Open and Quit** ⭐  
+**Exercise 39: Vim Basics - Open and Quit** ⭐✅  
 **Goal:** Learn to safely exit vim  
 **Task:** `vim myfile.txt`, press `Esc`, type `:q!`, press Enter  
 **Concept:** Vim has modes; `:q!` quits without saving  
 **Help:** `:q!` = quit, discard changes (very important!)
 
-**Exercise 40: Vim - Insert Mode**  
+**Exercise 40: Vim - Insert Mode**✅  
 **Goal:** Type text in vim  
 **Task:** Open vim, press `i`, type text, press `Esc`, type `:wq`, Enter  
 **Concept:** `i` enters insert mode, `Esc` exits it  
