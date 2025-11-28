@@ -271,31 +271,31 @@ A complete, gradual learning path designed for absolute beginners with zero know
 
 ### Week 5: Finding Things
 
-**Exercise 41: Find Files by Name** ⭐  
+**Exercise 41: Find Files by Name** ⭐✅  
 **Goal:** Search for files  
 **Task:** `find /home -name "*.txt"`  
 **Concept:** `find` searches filesystem  
 **Help:** `*.txt` matches all .txt files
 
-**Exercise 42: Find Case Insensitive**  
+**Exercise 42: Find Case Insensitive**✅  
 **Goal:** Search ignoring uppercase/lowercase  
 **Task:** `find /home -iname "*.TXT"`  
 **Concept:** `-iname` ignores case  
 **Help:** Matches .txt, .TXT, .Txt, etc.
 
-**Exercise 43: Find Directories Only**  
+**Exercise 43: Find Directories Only**✅  
 **Goal:** Search only for folders  
 **Task:** `find /home -type d -name "project*"`  
 **Concept:** `-type d` = directories only  
 **Help:** `-type f` would be files only
 
-**Exercise 44: Find by Size**  
+**Exercise 44: Find by Size**✅  
 **Goal:** Find large files  
 **Task:** `find /home -size +10M`  
 **Concept:** `+10M` = larger than 10 megabytes  
 **Help:** `-10M` would be smaller than 10MB
 
-**Exercise 45: Search Inside Files** ⭐  
+**Exercise 45: Search Inside Files** ⭐✅  
 **Goal:** Find text within files  
 **Task:** `grep "hello" myfile.txt`  
 **Concept:** `grep` searches file contents  
